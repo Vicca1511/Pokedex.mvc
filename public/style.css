@@ -10,40 +10,102 @@ header{
     justify-content: center;
     align-items: center;
     background:  orangered;
-    border-bottom: solid ;
+    padding: 2rem;
     
 }
-
-header  h1 {
-
-    color: yellow;
+header h1 {
     font-size: 3rem;
-    margin:  2rem 0 2rem 0;
+    font-family: Open Sans , Arial;
 }
-body{
-    background-color: yellow;
+
+main{
+    margin: 10rem 0 10rem 0;
 }
-section{
+
+section#cards{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 3rem;
 
     
 }
-div {
-    background-color: orangered;
+section#cards div.card {
+    width: 15rem;
+    background-color: gainsboro;
     text-align: center;
     margin-right: 2rem;
-    border: solid grey ;
-    border-radius: 4em;
+    margin-top: 3rem;
+    border: solid grey;
+    box-shadow: 10px 15px 10px grey;
 }
-div {
+section#cards div.card img {
+    width: 100%;
+}
 
-}
 
 div p {
-    margin:  2rem 0  2rem 0;
+    margin:  1rem 0  1rem 0;
     font-weight: bold ;
     font-size: 1.2rem;
+}
+#cadastro h2{
+    width: 50%;
+    margin:10rem 2rem 2rem 10rem ;
+    font-size: 2rem;
+    background: yellow 2rem 2rem ;
+    
+    
+}
+#cadastro #cadastro__form{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    
+    margin-left: 10rem;
+}
+
+#cadastro #cadastro__form label{
+
+    margin: 2rem 0 0 0 ; 
+    height: 2rem;
+    font-weight: bold;
+
+}
+#cadastro #cadastro__form input{
+
+    margin: 0;
+    height: 2rem;
+    padding:  0 .9rem;
+    border-radius: 2rem;
+    box-shadow: .2rem .8rem .5rem;
+    font-size: 1.1rem;
+    outline: none;
+    
+
+}
+#btnCadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 2.4rem;
+    width: 30%;
+    border-radius: 3rem;
+    box-shadow: 1rem 1rem 1rem .3rem black;
+    background-color: rgb(204, 6, 6);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blanchedalmond;
+    
+}
+#btnCadastrar:hover{
+    transform: scale(1.2);
+    transition: .4s ease-in-out;
+    background: yellow;
+    color: green;
+    box-shadow: 1rem 1rem 1rem .3rem green;
+
 }
