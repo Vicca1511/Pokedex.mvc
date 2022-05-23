@@ -9,7 +9,7 @@ header{
     display:flex;
     justify-content: center;
     align-items: center;
-    background:  orangered;
+    background:  rgb(220, 10, 45);
     padding: 2rem;
     border-bottom: solid;
     
@@ -108,7 +108,7 @@ section#cards div.card a {
     border: solid;
     padding: .8rem;
     border-radius: 3rem;
-    background-color: rgb(204, 6, 6);
+    background-color: rgb(0, 89, 255);
     font-size: 1.rem;
     font-weight: bold;
     color: blanchedalmond;
@@ -138,8 +138,7 @@ div p {
     height: 2.4rem;
     width: 30%;
     border-radius: 3rem;
-    box-shadow: 1rem 1rem 1rem .3rem black;
-    background-color: rgb(204, 6, 6);
+    background-color: rgb(220, 10, 45);
     font-size: 1.rem;
     font-weight: bold;
     color: blanchedalmond;
@@ -148,8 +147,6 @@ div p {
 #btnCadastrar:hover{
     transform: scale(1.2);
     transition: .4s ease-in-out;
-    background: yellow;
-    color: green;
-    box-shadow: 1rem 1rem 1rem .3rem green;
+  
 
 }
